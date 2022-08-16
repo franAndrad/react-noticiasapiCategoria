@@ -4,7 +4,7 @@ import Noticia from './Noticia';
 const ListaNoticias = (props) => {
     return (
         <div className='container'>
-            <div className='row my-3'>
+            <div className='row'>
             {
                 props.arregloBusqueda.map((item,posicion)=>
                 <Noticia key={posicion} noticia={item}></Noticia>
