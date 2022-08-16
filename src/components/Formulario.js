@@ -16,9 +16,13 @@ const Formulario = () => {
     }
     
     const opciones = [
-        {value: 'general' , label: 'general'},
-        {value: 'science' , label: 'ciencia'},
-        {value: 'technology' , label: 'tecnologia'},
+        {value: 'general' , label: 'General'},
+        {value: 'science' , label: 'Ciencia'},
+        {value: 'technology' , label: 'Tecnologia'},
+        {value: 'health', label: 'Salud'},
+        {value: 'entertainment', label: 'Entretenimiento'},
+        {value: 'sports', label: 'Deporte'},
+        {value: 'business', label: 'Negocios'},
     ];
     
     return (
